@@ -14,7 +14,7 @@ git clone https://github.com/<your username>/Code-Dump-HacktoberFest-2022.git
 3. Change the working directory
 
 ```bash
-cd Code-Dump
+cd Code-Dump-HacktoberFest-2022
 ```
 
 4. Add a reference to the original repository.
