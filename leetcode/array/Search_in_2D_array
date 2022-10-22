@@ -1,0 +1,14 @@
+class Solution {
+    public boolean searchMatrix(int[][] matrix, int target) {
+        int a = 0,b=matrix.length-1;
+        while(a<matrix[0].length&&b>=0){ if array go ou of bound then it will execute line 12 i.e. return false
+            if(matrix[b][a]>target)//if element is greater than target then search in  next row.
+                b--;
+            else if (matrix[b][a]<target)// if element is less than target then check next element of that row
+                a++;
+            else  // if element is equal to target then return true
+                return true;
+        }
+        return false;
+    }
+}
