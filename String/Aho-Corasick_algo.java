@@ -216,5 +216,3 @@ public static void main(String[] args)
 	searchWords(arr, k, text);
 }
 }
-
-// This code is contributed by Princi Singh
